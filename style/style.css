@@ -1,0 +1,57 @@
+/* FONTS */
+@font-face {
+  font-family: "PirataOne";
+  src: url("../fonts/PirataOne-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* CSS */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  align-self: center;
+}
+
+body {
+  background: white;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+
+/* FIRST SECTION  */
+h1 {
+  font-family: "PirataOne", serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+/* CHERYL */
+main > section:first-of-type > img {
+  width: 50%;
+}
+
+main > section:first-of-type {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+}
+
+/* SECOND SECTION */
+main > section:last-of-type {
+  display: flex;
+  flex-direction: row;
+}
+
+main > section:last-of-type > img {
+  width: 10%;
+}
+
+main > section:last-of-type > img:nth-of-type(2) {
+  width: 9%;
+}
